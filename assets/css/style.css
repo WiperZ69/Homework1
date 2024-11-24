@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
@@ -36,6 +40,7 @@ a {
 }
 .top__text {
   margin-top: 24px;
+  margin-bottom: 64px;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -45,20 +50,14 @@ a {
   font-weight: 600;
 }
 .top__button {
-  margin-top: 48px;
-  font-family: inherit;
   font-size: 24px;
   font-weight: 600;
   line-height: 141.69%;
   text-align: center;
   color: #fff;
   background-color: #202027;
-  box-sizing: border-box;
   padding: 16px 28px;
   border-radius: 60px;
-  width: 247px;
-  height: 66px;
-  cursor: pointer;
   border: 1px solid #202027;
 }
 .top__button:hover {
@@ -157,7 +156,7 @@ a {
   font-weight: 700;
   font-size: 64px;
   color: #fff;
-  margin-bottom: 72px;
+  margin-bottom: 40px;
 }
 
 .mini-game {
