@@ -36,13 +36,15 @@
         display: none;
     }
     .mini-games {
+        padding-top: 48px;
         background-image: none;
         gap: 24px;
+        padding-bottom: 48px;
         &__title {
             font-size: 40px;
             font-weight: 700;
             line-height: 49px;
-            margin-bottom: 48px;
+            margin-bottom: 24px;
         }
     }
     .mini-game {
