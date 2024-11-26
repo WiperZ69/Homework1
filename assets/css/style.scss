@@ -47,7 +47,10 @@ a {
         font-weight: 600;
     }
     &__button {
-
+        display: block;
+        box-sizing: border-box;
+        width: 247px;
+        height: 66px;
         font-size: 24px;
         font-weight: 600;
         line-height: 141.69%;
