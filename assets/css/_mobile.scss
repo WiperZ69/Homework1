@@ -35,6 +35,9 @@
     .about-games {
         display: none;
     }
+    .game {
+        height: 512px;
+    }
     .mini-games {
         padding-top: 48px;
         background-image: none;
@@ -78,52 +81,16 @@
             order: -1;
             height: 285px;
         }
-        &__image_1 {
+        &__image {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100%; 
             max-width: 100%;
             max-height: 100%;
-            background-image: url(/assets/img/mini-game1-mobile.png);
-            background-repeat: no-repeat;
-            background-size: cover;
             border-radius: 30px;
-        }
-        &__image_2 {
-            max-width: 100%;
-            max-height: 100%;
-            background-image: url(/assets/img/mini-game2-mobile.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            border-radius: 30px;
-        }
-        &__image_3 {
-            max-width: 100%;
-            max-height: 100%;
-            background-image: url(/assets/img/mini-game3-mobile.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        &__image_4 {
-            max-width: 100%;
-            max-height: 100%;
-            background-image: url(/assets/img/mini-game4-mobile.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            border-radius: 30px;
-        }
-        &__image_5 {
-            max-width: 100%;
-            max-height: 100%;
-            background-image: url(/assets/img/mini-game5-mobile.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            border-radius: 30px;
-        }
-        &__image_6 {
-            max-width: 100%;
-            max-height: 100%;
-            background-image: url(/assets/img/mini-game6-mobile.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            border-radius: 30px;
+            object-fit: cover; 
+            object-position: bottom;
         }
     }
     .footer {
