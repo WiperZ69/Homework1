@@ -70,6 +70,10 @@ a {
   transition: 200ms;
   transition-timing-function: ease-in-out;
 }
+.top__gameOne {
+  height: 400px;
+  background-position: 63px 69px, 100% 0, calc(100% - 544px) calc(100% - 29px);
+}
 
 .about-games {
   background-color: #202027;
@@ -243,6 +247,32 @@ a {
 }
 .mini-game__reverse {
   order: -1;
+}
+
+.gameOne {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+.gameOne__button {
+  box-sizing: border-box;
+  width: 247px;
+  height: 66px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 141.69%;
+  text-align: center;
+  color: #fff;
+  background-color: #202027;
+  padding: 16px 16px;
+  border-radius: 60px;
+  border: 1px solid #202027;
+}
+.gameOne__button:hover {
+  color: #000;
+  background-color: #fff;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
 }
 
 .footer {
